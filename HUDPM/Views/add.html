@@ -1,0 +1,25 @@
+﻿<h1 class="text-center text-danger">Add Employee</h1>
+<br/>
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <form>
+            <div class="form-group">
+                <label for="inputEmail">Name</label>
+                <input type="text" ng-model="name" class="form-control input-lg" placeholder="Employee Name"/>
+            </div>
+            
+            <div class="form-group">
+                <label for="inputPassword">Salary</label>
+                <input type="number" ng-model="sal" class="form-control input-lg" placeholder="Employee Salary" />
+            </div>
+            
+            <div class="form-group">
+                <label for="inputPassword">Age</label>
+                <input type="number" ng-model="age" class="form-control input-lg" placeholder="Employee Age" />
+            </div>
+            
+            <button ng-click="addEmp()" class="btn btn-info form-control input-lg">Save</button>
+        </form>
+    </div>
+</div>
